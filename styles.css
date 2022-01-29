@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+	min-height:1300px;
+	background-image: url('images/floor.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+p {
+	font-size: 15px;
+	text-align: left;
+}
+
+.banner h1 {
+	font-size: 72px;
+	text-align: center;
+	padding-top: 100px;
+	color: white;
+}
+
+.about {
+	width:60%;
+	margin: 0 auto;
+	max-width: 650px;
+	background-color: white;
+	border-radius: 10px;
+	padding: 10px;
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+
+.about a {
+	text-decoration: none;
+	color: black;
+}
+
+.about img {
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	border: solid black 2px;
+	animation-name: coin;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+
+.sub-banner h2{
+	font-size: 35px;
+	text-align: center;
+	padding-top: 0px;
+	color: white;
+	border-top: solid white 4px;
+	border-bottom: solid white 4px;
+	width: 70%;
+	margin: 100px auto 0px auto;
+}
+
+
+@keyframes coin {
+	0% {width: 100px;}
+	50% {width: 5px;}
+	100% {width: 100px;}
+}
+
+.projectContainer {
+	width:90%;
+	margin: 20px auto;
+	max-width: 700px;
+	background-color: white;
+	border-radius: 10px;
+}
+
+.project, .project h3 {
+	width: 100%;
+	text-align: center;
+	padding: 20px;
+}
+
+.project img {
+	width: 100%;
+	max-width: 650px; 
+	border: solid black 1px;
+}
+
+.language {
+	border-top: solid black  2px;
+	padding: 20px;
+	width: 90%;
+	margin: 0px auto;
+}
+
+.language li {
+	display: inline;
+}
+
+.language img {
+	width: 100px;
+	height: 100px;
+	padding: 10px;
+}
+
+.bottom {
+	width:90%;
+	margin: 0 auto;
+	max-width: 1300px;
+	background-color: white;
+	border-radius: 10px;
+}
