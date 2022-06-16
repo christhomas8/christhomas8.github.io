@@ -32,7 +32,7 @@ p {
 	border-radius: 10px;
 	padding: 10px;
 	text-align: center;
-	margin-bottom: 100px;
+	margin-bottom: 80px;
 }
 
 
@@ -42,13 +42,43 @@ p {
 }
 
 .about img {
-	width: 100px;
-	height: 100px;
+	width: 150px;
+	height: 150px;
 	border-radius: 50px;
 	border: solid black 2px;
 	animation-name: coin;
 	animation-duration: 2s;
 	animation-iteration-count: infinite;
+}
+
+.nav {
+	padding: 20px;
+	width: 100%;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.nav li {
+	display: inline;
+	padding: 10px;
+	background-color: white;
+	border: solid 1px black;
+	padding: 40px 10px;
+	margin: 2px 10px;
+	border-radius: 8px;
+	
+}
+
+.nav li:hover {
+	background-color:rgb(211, 205, 206);
+	border: solid 4px white;
+}
+
+.nav a {
+	text-decoration: none;
+	color: black;
 }
 
 .sub-banner h2{
@@ -59,7 +89,7 @@ p {
 	border-top: solid white 4px;
 	border-bottom: solid white 4px;
 	width: 70%;
-	margin: 100px auto 0px auto;
+	margin: 80px auto 0px auto;
 }
 
 
