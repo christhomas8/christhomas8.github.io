@@ -69,7 +69,38 @@
 			<ul>
 				<li><img src="images/logos/cs.png" title="C#"></li>
 				<li><img src="images/logos/swift.png" title="Swift"></li>
-				<li><img src="images/logos/java.png"></li>
+				<li><img src="images/logos/java.png" title="Java"></li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="projectContainer">
+		<div class="project">
+			<h3>RP1227 Mobile Test App</h3>
+			<img src="images/TractorMobile.gif" > 
+			<img src="images/ecufaults.jpg">
+			<p>
+				Noregon Systems creates adapters that connect to commercial trucks and communicate with various components
+				located on the vehicles (e.g. Engine, Transmission, Brakes, etc.). RP1210 is the protocol used for this communication
+				but it is limited to PCs. The RP1227 standard has the same functionality as RP1210, but it's focus is on mobile device
+				communication. Being a newer protocol, testing libraries for it can be challenging. This is even more challenging when
+				introducing platforms like Android and iOS, along with wireless communication. I created a mobile test app that can communicate 
+				with vehicle ECUs through Wi-Fi and Bluetooth options. It receives byte data sent across the vehicles electrical bus and 
+				can decode messages from that data. These messages can be faults and error codes, or even information on the vehicle itself 
+				(e.g. VIN). It integrates with C libraries built from Rust, runs automated tests among multiple adapters using a custom NUnit
+				test runner, wirelessly discovers nearby adapters, can maintain up to 16 simultaneous client connections with multiple tabs, 
+				runs scripts, and so much more! 
+			</p>
+		</div>
+		<div class="language">
+			<ul>
+				<li><img src="images/logos/cs.png" title="C#"></li>
+				<li><img src="images/logos/c.png" title="C"></li>
+				<li><img src="images/logos/cpp.png" title="C++"></li>
+				<li><img src="images/logos/nunit.png" title="NUnit"></li>
+				<li><img src="images/logos/java.png" title="Java"></li>
+				<li><img src="images/logos/rust.png" title="Rust"></li>
+				<li><img src="images/logos/swift.png" title="Swift"></li>
 			</ul>
 		</div>
 	</div>
@@ -89,7 +120,7 @@
 		<div class="language">
 			<ul>
 				<li><img src="images/logos/c.png" title="C"></li>
-				<li><img src="images/logos/cpp.png" title="CPP"></li>
+				<li><img src="images/logos/cpp.png" title="C++"></li>
 			</ul>
 		</div>
 	</div>
@@ -179,27 +210,6 @@
 			</ul>
 		</div>
 	</div>
-
-
-	<div class="projectContainer">
-		<div class="project">
-			<h3>Genesis Mobile App</h3>
-			<img src="images/genesis.jpg">
-			<p>Mobile apps are increasing in popularity due to the convenience of cell phones.
-				To adapt to this increasing demand, I developed an Android app.
-				Since the main focus of this app was learning, it primarily focuses on navigation through information placed in the app.
-				I even deployed it to a phone to test out the entire process.
-				Although this is an ongoing project, the latest version can be found here: <a href="https://github.com/christhomas8/genesis-app" style="text-decoration: none;">Genesis-App</a>.
-			</p>
-		</div>
-		<div class="language">
-			<ul>
-				<li><img src="images/logos/java.png" title="Java"></li>
-				<li><img src="images/logos/androidstudio.png" title="Android Studio"></li>
-			</ul>
-		</div>
-	</div>
-
 	
 </body>
 </html>
